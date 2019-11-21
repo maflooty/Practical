@@ -1,0 +1,92 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: aqua;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+header {
+    background-color: darkslategray;
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-top: red solid 3px;
+    border-bottom: red solid 3px;
+}
+header a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;
+}
+header ul {
+    padding: 0;
+    margin: 0;
+}
+header li {
+    
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header #branding {
+float:left;
+}
+#branding h1 {
+    margin: 0;
+}
+nav {
+    float: right;
+    margin: 10px;
+}
+header .highlight, header .current a {
+    color: red;
+    font-weight: bold;
+}
+header a:hover {
+    color: gray;
+    font-weight: bold;
+}
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+.clickButton {
+    border: none;
+    color: red;
+    width:200px;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: darkslategray;
+    color: white;
+    border: 2px solid red;
+    }
+  
+
+  #addTodoTextInput { 
+    width: 60%; 
+    margin-left: 2%;
+    padding: 15px;
+  }
+
+  #changeTodoTextInput {
+    width: 45%; 
+    margin-left: 2%;
+    padding: 15px;
+  }
+
+  #toggleCompletedPositionInput, #changeTodoPositionInput { 
+    width: 10%;
+    margin-left: 2%;
+    padding: 15px;
+  }
