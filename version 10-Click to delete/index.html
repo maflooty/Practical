@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Practical Javascript</title>
+</head>
+<body>
+    <h1>Todo List</h1>
+  <!-- <p>V10 Requirement</p>
+    <ul>
+        <li>There should be a way to creat delete buttons</li>
+        <li>There should be a delete button for each todo</li>
+        <li>Each li should have an id that has the todo position</li>
+        <li>Delete buttons should have access to the todo id</li>
+        <li>Clicking delete should update todoList.todos and the DOM</li>
+    </ul>
+-->
+    <div>
+        <button onclick="handler.toggleAll()">Toggle All</button>
+    </div>
+    <div>
+        <button onclick="handler.addTodo()">Add</button>
+        <input id="addTodoTextInput" type="text">
+    </div>
+
+    <div>
+        <button onclick="handler.changeTodo()">Change</button>
+        <input id="changeTodoPositionInput" type="number">
+        <input id="changeTodoTextInput" type="text">
+    </div>
+
+    <div>
+        <button onclick="handler.toggleCompleted()">Toggle Completed</button>
+        <input id="toggleCompletedPositionInput" type="number">
+    </div>
+
+    <ul>
+      
+    </ul>
+
+    <script src="app.js"></script>
+</body>
+</html>
