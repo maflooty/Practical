@@ -1,0 +1,48 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Practical Javascript</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h1>Todo List</h1>
+   <!-- <p>V9 Requirements</p>
+    <ul>
+        <li>There should be an 'li' element for every todo</li>
+        <li>Each 'li' element should contain .todoText</li>
+        <li>Each 'li' element should show .completed</li>
+    </ul>
+    -->
+    <div>
+        <button onclick="handler.toggleAll()">Toggle All</button>
+    </div>
+    <div>
+        <button onclick="handler.addTodo()">Add</button>
+        <input id="addTodoTextInput" type="text">
+    </div>
+
+    <div>
+        <button onclick="handler.changeTodo()">Change</button>
+        <input id="changeTodoPositionInput" type="number">
+        <input id="changeTodoTextInput" type="text">
+    </div>
+
+    <div>
+        <button onclick="handler.deleteTodos()">Delete</button>
+        <input id="deleteTodoPositionInput" type="number">
+    </div>
+
+    <div>
+        <button onclick="handler.toggleCompleted()">Toggle Completed</button>
+        <input id="toggleCompletedPositionInput" type="number">
+    </div>
+<ul>
+
+</ul>
+    <script src="app.js"></script>
+    </body>
+    </html>
